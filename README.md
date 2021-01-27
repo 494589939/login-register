@@ -5,19 +5,19 @@
 ## 简单的使用方法：
 
 
-创建虚拟环境
-使用pip安装第三方依赖
-修改settings.example.py文件为settings.py
-运行migrate命令，创建数据库和数据表
-运行python manage.py runserver启动服务器
+创建虚拟环境<br>
+使用pip安装第三方依赖<br>
+修改settings.example.py文件为settings.py<br>
+运行migrate命令，创建数据库和数据表<br>
+运行python manage.py runserver启动服务器<br>
 
 
-路由设置：
+路由设置：<br><br>
 
 
-from django.contrib import admin
-from django.urls import path, include
-from login import views
+from django.contrib import admin <br>
+from django.urls import path, include <br>
+from login import views<br>
 <br><br>
 urlpatterns = [ <br>
     path('admin/', admin.site.urls), 
