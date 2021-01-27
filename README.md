@@ -18,13 +18,13 @@
 from django.contrib import admin
 from django.urls import path, include
 from login import views
-
-urlpatterns = [\n
-    path('admin/', admin.site.urls), \n
-    path('index/', views.index),\n
-    path('login/', views.login),\n
-    path('register/', views.register),\n
-    path('logout/', views.logout),\n
-    path('confirm/', views.user_confirm),\n
-    path('captcha/', include('captcha.urls'))  \n # 增加这一行
+<br><br>
+urlpatterns = [ <br>
+    path('admin/', admin.site.urls), 
+    path('index/', views.index),<br>
+    path('login/', views.login),<br>
+    path('register/', views.register),<br>
+    path('logout/', views.logout),<br>
+    path('confirm/', views.user_confirm),<br>
+    path('captcha/', include('captcha.urls'))  # 增加这一行<br>
 ]
